@@ -5,7 +5,7 @@ import api from '../store/api/authentication';
 const HomePage = ({navigation}) => {
     return <View>
         <Text>
-        HomePage
+        HomePage 123 123
     </Text>
     <Button title={'logout'} onPress={()=>{
 const callLogout = api.logoutApi();
